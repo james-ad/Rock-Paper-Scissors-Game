@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.tip-button {
+    margin: 10px;
+    width: 100px;
+}
+
+/* start buttons on new line and center input */
+#total-amount {
+    display: block;
+}
+
+#wrapper {
+    display: relative;
+}
+
+/* align placeholder text inside input box and center buttons and result */
+#buttons, #tip-result, #total-amount {
+    text-align: center;
+}
+
+#total-amount {
+    margin: 40px auto;
+}
+
+#tip-result {
+    position: relative;
+    top: 50px;
+    font-size: 3em;
+}
